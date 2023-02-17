@@ -2,7 +2,6 @@ from cgitb import text
 from json import load
 from os import link
 from click import style
-from nbformat import write
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
