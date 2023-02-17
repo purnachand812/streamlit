@@ -82,7 +82,7 @@ with right_column:
     
     
   
-  input[type=text], input[type=email], textarea {
+input[type=text], input[type=email], textarea {
   width: 100%; 
   padding: 12px; 
   border: 1px solid #ccc; 
