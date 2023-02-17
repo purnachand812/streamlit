@@ -4,7 +4,6 @@ from os import link
 from click import style
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 
 
 
