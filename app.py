@@ -32,7 +32,7 @@ lottie_coding= load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_ngz
 with st.container():
     st.subheader("hi im purnachand :wave:")
     st.title("student from india")
-    st.write("i ma passionate about learning new things about tech and i try to build new things using python and another languages")
+    st.write("An innovative, enthusiastic individual looking for a responsible position to learn, grow and excel in new technologies.")
     st.write("[< learn more >](https://purnadandu.42web.io)")
 
 
@@ -43,8 +43,7 @@ with st.container():
         st.header("what I want to do")
         st.write("##")
         st.write(
-            """
-            i just want to be successfull web developer 
+            """Wanted to be best in Machine Learning and build a best model for all data analysis
             """
         )
 
@@ -54,10 +53,31 @@ with right_column:
 
     with st.container():
         st.write("------")
-        st.header("my progress")
-        st.write("i have completed my python basic and python data structures courses ")
+        st.header("Experience")
+        st.write("--Freelancer at UTest platform ")
+        st.write("Enterpreuner at Meesho PVT LTD")
         
     
+with st.container():
+        st.write("------")
+        st.header(" Technical-Skills")
+        st.write("Languages : C, java, Python.")
+        st.write("Problem Solving : DataStructures and Algorithms")
+        st.write("Development : HTML, CSS, JS,Bootstrap, PHP, SQL")
+        st.write("Databases : MySQL.")
+        st.write("Additional Skills : Canva,wordpress")
+        
+        
+with st.container():
+    st.write("------")
+    st.header("Certifications")
+    st.write("[Data science](https://www.udemy.com/certificate/UC-ca3c1055-d568-45f5-8a6b-e2b1f4bfa27f/) -- Completed DataScience course from Udemy")
+    st.write("[Wordpress](https://www.udemy.com/certificate/UC-7e692fa6-0ed8-46e0-80c0-a9df22825813/) -- Completed Wordpress basics course from Udemy")
+    st.write("IBC hackathon Completion -- participated in IBC hackathon Organised in Hyderabad")
+    st.write("Python Basics to Advanced -- By Perfect-E-Learning")
+    st.write("Machine Learning -- By Perfect-E-Learning")
+        
+        
 
 
 
@@ -65,23 +85,8 @@ with st.container():
     st.write("------")
     st.header("contact me")
     st.write("##")
+    
 
-
-    contact_form = """
-    <form action="https://formsubmit.co/purnachand0812@gmail.com" method="POST">
-     <input type="hidden" name="_captcha" value="false">
-     <input type="text" name="name" palceholder="your name" required>
-     <input type="email" name="email" placeholder="your email" required>
-     <textarea name ="message"placeholder=""write your message">
-     <button type="submit">Send</button>
-</form>
-"""
-
-left_column,right_column=st.columns(2)
-with left_column:
-    st.markdown(contact_form,unsafe_allow_html=True)
-with right_column:
-    st.empty()
 
 
     
@@ -91,5 +96,6 @@ with right_column:
 
 
  
+
 
 
