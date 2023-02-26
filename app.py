@@ -85,17 +85,3 @@ with st.container():
     st.write("------")
     st.header("contact me")
     st.write("##")
-    
-
-
-
-    
-
-
-
-
-
- 
-
-
-
