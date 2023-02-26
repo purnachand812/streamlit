@@ -88,6 +88,22 @@ with st.container():
     
 
 
+    contact_form = """
+    <form action="https://formsubmit.co/purnachand0812@gmail.com" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" palceholder="your name" required>
+     <input type="email" name="email" placeholder="your email" required>
+     <textarea name ="message"placeholder=""write your message">
+     <button type="submit">Send</button>
+</form>
+"""
+
+left_column,right_column=st.columns(2)
+with left_column:
+    st.markdown(contact_form,unsafe_allow_html=True)
+with right_column:
+    st.empty()
+
 
     
 
@@ -96,6 +112,5 @@ with st.container():
 
 
  
-
 
 
